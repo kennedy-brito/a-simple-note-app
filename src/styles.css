@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --background-color: rgb(34, 31, 31);
+    --card-background-color: rgb(15,15,15);
+    --font-family: "Poppins", Arial, Helvetica, sans-serif;
+    --font-color: rgb(225,225,225);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    
+    background-color: var(--background-color);
+    
+    color:var(--font-color);
+    font-family: var(--font-family);
+    font-size: 20px;
+}
