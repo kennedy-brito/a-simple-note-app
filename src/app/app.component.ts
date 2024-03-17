@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { InitialComponent } from './components/initial/initial.component';
 import { AddNoteComponent } from './components/add-note/add-note.component';
+import { EditNoteComponent } from './components/edit-note/edit-note.component';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,8 @@ import { AddNoteComponent } from './components/add-note/add-note.component';
   imports: [
     RouterOutlet,
     InitialComponent,
-    AddNoteComponent
+    AddNoteComponent,
+    EditNoteComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
