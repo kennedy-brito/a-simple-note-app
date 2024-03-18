@@ -1,7 +1,9 @@
 {
-    "note":{
-        "id": 1,
-        "title": "test Note",
-        "content": "Aenean molestie, odio quis iaculis auctor, massa purus finibus nunc, non sodales ante purus id tellus. Aliquam molestie ex et quam aliquet, ac lobortis urna faucibus. Vivamus sit amet pretium nisl, at pulvinar elit. Vivamus faucibus, nisl at accumsan vulputate, ligula velit sodales ipsum, non pharetra elit sapien bibendum ex. Curabitur porta turpis vitae fringilla rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ullamcorper sodales justo vitae posuere. Ut viverra urna nunc, in finibus mi placerat at. Mauris quis condimentum dolor, a varius orci. Mauris dapibus felis nec tellus interdum lacinia porta laoreet est. Morbi placerat commodo pellentesque. Etiam et imperdiet tellus."
-    }
+    "notes":[
+        {
+            "id": 1,
+            "title": "test Note",
+            "content": "Aenean molestie, odio quis iaculis auctor, massa purus finibus nunc, non sodales ante purus id tellus. Aliquam molestie ex et quam aliquet, ac lobortis urna faucibus. Vivamus sit amet pretium nisl, at pulvinar elit. Vivamus faucibus, nisl at accumsan vulputate, ligula velit sodales ipsum, non pharetra elit sapien bibendum ex. Curabitur porta turpis vitae fringilla rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ullamcorper sodales justo vitae posuere. Ut viverra urna nunc, in finibus mi placerat at. Mauris quis condimentum dolor, a varius orci. Mauris dapibus felis nec tellus interdum lacinia porta laoreet est. Morbi placerat commodo pellentesque. Etiam et imperdiet tellus."
+        }
+    ]
 }
