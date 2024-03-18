@@ -17,7 +17,7 @@ export class NoteService {
     return this._http.get<Note[]>(this.url)
   }
 
-  getNote(id: number): Observable<Note[]>
+  getNote(id: any): Observable<Note[]>
   {
     const getUrl = `${this.url}/?id=${id}`
     return this._http.get<Note[]>(getUrl)
@@ -28,15 +28,15 @@ export class NoteService {
     return this._http.post<Note[]>(this.url, note)
   }
 
-  putNote(id: number, note: Note): Observable<Note>
+  putNote(id: any, note: Note[]): Observable<Note[]>
   {
     const putUrl = `${this.url}/${id}`
-    return this._http.put<Note>(putUrl, note)
+    return this._http.put<Note[]>(putUrl, note)
   }
 
-  deleteNote(id: number): Observable<Note>{
+  deleteNote(id: any): Observable<Note[]>{
     const deleteUrl = `${this.url}/${id}`
-    return this._http.delete<Note>(deleteUrl)
+    return this._http.delete<Note[]>(deleteUrl)
   }
 
 }

@@ -29,9 +29,19 @@ export class InitialComponent implements OnInit{
     this._noteService.getNotes().subscribe(
       {
         next: next => this.notes = next,
-        error: error => console.log("error")
+        error: error => console.log(error)
       }
     )
+  }
+
+  deleteNote(id?: number )
+  {
+    if (id == undefined) return; 
+
+    this._noteService.deleteNote(id).subscribe()
+
+    this.listNotes()
+    
   }
 
   
