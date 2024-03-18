@@ -34,4 +34,9 @@ export class NoteService {
     return this._http.put<Note>(putUrl, note)
   }
 
+  deleteNote(id: number): Observable<Note>{
+    const deleteUrl = `${this.url}/${id}`
+    return this._http.delete<Note>(deleteUrl)
+  }
+
 }
