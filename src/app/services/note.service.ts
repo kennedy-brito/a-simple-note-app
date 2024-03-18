@@ -16,4 +16,11 @@ export class NoteService {
     return this._http.get<Note[]>(this.url)
   }
 
+  getNote(id: number): Observable<Note[]>{
+    const getUrl = `${this.url}/?id=${id}`
+    return this._http.get<Note[]>(getUrl)
+  }
+
+  
+
 }
