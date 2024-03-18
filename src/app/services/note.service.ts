@@ -12,15 +12,20 @@ export class NoteService {
 
   constructor(private _http: HttpClient) { }
 
-  getNotes(): Observable<Note[]>{
+  getNotes(): Observable<Note[]>
+  {
     return this._http.get<Note[]>(this.url)
   }
 
-  getNote(id: number): Observable<Note[]>{
+  getNote(id: number): Observable<Note[]>
+  {
     const getUrl = `${this.url}/?id=${id}`
     return this._http.get<Note[]>(getUrl)
   }
 
-  
+  postNote(note: Note): Observable<Note[]>
+  {
+    return this._http.post<Note[]>(this.url, note)
+  }
 
 }
