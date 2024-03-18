@@ -9,28 +9,20 @@
                 <mat-icon fontIcon="add"></mat-icon>
             </button>
         </section>
+        @for (note of notes; track $index) 
+        {
+            <section class="note">
+                <p  class="note-id">{{note.id}}</p>
+                <p class="note-title">{{note.title}}</p>
+                <button routerLink="/edit">
+                    <mat-icon fontIcon="edit"></mat-icon>
+                </button>
+                <button>
+                    <mat-icon fontIcon="delete"></mat-icon>
+                </button>
+            </section>
 
-        <section class="note">
-            <p  class="note-id">1</p>
-            <p class="note-title">Class notes</p>
-            <button routerLink="/edit">
-                <mat-icon fontIcon="edit"></mat-icon>
-            </button>
-            <button>
-                <mat-icon fontIcon="delete"></mat-icon>
-            </button>
-        </section>
-
-        <section class="note">
-            <p class="note-id">1</p>
-            <p class="note-title">Class notes</p>
-            <button>
-                <mat-icon fontIcon="edit"></mat-icon>
-            </button>
-            <button>
-                <mat-icon fontIcon="delete"></mat-icon>
-            </button>
-        </section>
+        }
 
     </div>
 
