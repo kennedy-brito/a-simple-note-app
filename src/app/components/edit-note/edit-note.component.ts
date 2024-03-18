@@ -4,6 +4,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { take } from 'rxjs';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-edit-note',
@@ -12,7 +13,8 @@ import { take } from 'rxjs';
     MatFormFieldModule,
     MatInputModule,
     TextFieldModule,
-    MatIconModule
+    MatIconModule,
+    RouterLink
   ],
   templateUrl: './edit-note.component.html',
   styleUrl: './edit-note.component.css'
