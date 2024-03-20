@@ -34,7 +34,7 @@ export class InitialComponent implements OnInit{
     )
   }
 
-  deleteNote(id?: number )
+  deleteNote(id?: string )
   {
     if (id == undefined) return; 
 

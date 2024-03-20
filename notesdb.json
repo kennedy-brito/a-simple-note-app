@@ -1,3 +1,14 @@
 {
-  "notes": []
+  "notes": [
+    {
+      "id": "9593",
+      "title": "verify note",
+      "content": "i should verify if the note was posted"
+    },
+    {
+      "id": "8934",
+      "title": "the note was posted",
+      "content": "it should be"
+    }
+  ]
 }

@@ -3,8 +3,8 @@
     <div class="input-area">
 
         <section id="inputs">
-                <input type="text" placeholder="Title" maxlength="50">
-                <textarea name="content" id="content" cols="30" rows="10"></textarea>
+                <input type="text" placeholder="Title" maxlength="50" [(ngModel)]="note.title">
+                <textarea name="content" id="content" cols="30" rows="10" [(ngModel)]="note.content"></textarea>
         </section>
         
         <section id="buttons">
@@ -12,7 +12,7 @@
                 <mat-icon fontIcon="cancel"></mat-icon>
             </button>
             
-            <button id="confirm">
+            <button id="confirm" (click)="saveNote()">
                 <mat-icon fontIcon="check"></mat-icon>
             </button>
         </section>
