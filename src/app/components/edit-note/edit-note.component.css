@@ -36,6 +36,7 @@
 
 #inputs input {
     padding: 8px;
+    border-bottom: 1px solid black;
 }
 
 #inputs textarea {

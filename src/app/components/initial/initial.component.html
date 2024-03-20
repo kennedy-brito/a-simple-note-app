@@ -13,8 +13,8 @@
         {
             <section class="note">
                 <p class="note-title">{{note.title}}</p>
-                <button routerLink="/edit">
-                    <mat-icon fontIcon="edit/{{note.id}}"></mat-icon>
+                <button routerLink="/edit/{{note.id}}">
+                    <mat-icon fontIcon="edit"></mat-icon>
                 </button>
                 <button (click)="deleteNote(note.id)">
                     <mat-icon fontIcon="delete"></mat-icon>

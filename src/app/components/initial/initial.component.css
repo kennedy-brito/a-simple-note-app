@@ -59,7 +59,7 @@
     margin: 5px 0;
 
     display: grid;
-    grid-template-columns: 0% 70% 15% 15%;
+    grid-template-columns: 70% 15% 15%;
     column-gap: 10px;;
 
     justify-content: space-between;

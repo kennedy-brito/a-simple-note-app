@@ -28,10 +28,10 @@ export class NoteService {
     return this._http.post<Note[]>(this.url, note)
   }
 
-  putNote(id: any, note: Note[]): Observable<Note[]>
+  putNote(id: any, note: Note): Observable<Note>
   {
     const putUrl = `${this.url}/${id}`
-    return this._http.put<Note[]>(putUrl, note)
+    return this._http.put<Note>(putUrl, note)
   }
 
   deleteNote(id: any): Observable<Note[]>{
