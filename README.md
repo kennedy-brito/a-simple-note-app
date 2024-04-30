@@ -1,27 +1,47 @@
-# ASimpleNoteApp
+[ANGULAR__BADGE]: https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular
+[TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+<h1 align="center" >A Simple Note App </h1>
 
-## Development server
+![angular][ANGULAR__BADGE]
+![typescript][TYPESCRIPT__BADGE]
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<p align="center">
+ <a href="#about">About</a> • 
+ <a href="#started">Getting Started</a>
+</p>
 
-## Code scaffolding
+<h2 id="started">📌 About</h2>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This is a simple project used to study the basics of Angular, Typescript and consuming API's in Angular.
 
-## Build
+<h2 id="started">🚀 Getting started</h2>
+To run this project locally you should clone the project:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+git clone git@github.com:kennedy-brito/a-simple-note-app.git
+```
 
-## Running unit tests
+Now run the following comands:
+```bash
+cd a-simple-note-app
+npm install
+json-server --watch notesdb.json
+ng serve
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Acess the port that Angular is using, normally it is the 4200 port
+<h3>Prerequisites</h3>
 
-## Running end-to-end tests
+- [NodeJS](https://github.com/)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<h2 id="routes">📍 Application Routes</h2>
 
-## Further help
+Here you can list the main routes of your API, and what are their expected request bodies.
+​
+| route               | description                                          
+|----------------------|-----------------------------------------------------
+| <kbd>/notes</kbd>     | page that list all notes of the user
+| <kbd>/add</kbd>     | page to add notes
+| <kbd>/edit/:id</kbd>     | page to edit a existing note
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
