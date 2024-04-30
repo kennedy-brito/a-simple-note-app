@@ -2,13 +2,18 @@
   "notes": [
     {
       "id": "8934",
-      "title": "the note was edited 3",
+      "title": "the note was edited 3 even using outputs?",
       "content": "it should be"
     },
     {
       "id": "2096",
       "title": "new note",
       "content": "this note should be created"
+    },
+    {
+      "id": "4923",
+      "title": "the note was added using generic components?",
+      "content": "it should be"
     }
   ]
 }
